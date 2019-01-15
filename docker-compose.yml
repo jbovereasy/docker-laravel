@@ -1,6 +1,6 @@
 version: "2"
 services:
-  ppm-mis:
+  webapp:
     image: "jsb13207/ppm-mis:laravel"
     ports:
       - "8080:80"
