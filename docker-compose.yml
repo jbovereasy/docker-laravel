@@ -1,0 +1,8 @@
+version: "2"
+services:
+  ppm-mis:
+    image: "jsb13207/ppm-mis:laravel"
+    ports:
+      - "8080:80"
+    volumes:
+      - ".:/var/www/"
